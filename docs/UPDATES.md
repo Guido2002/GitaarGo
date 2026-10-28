@@ -45,8 +45,14 @@ GitHub-toegang loopt via de bestaande git credential helper op de Mac of `GH_TOK
 - De bronaanpak is gebaseerd op de updater in `Guido2002/ChromecastRemote`, uitgebreid met SHA-256-controle en expliciete keuze van de universele APK.
 
 
-## Controle van releasehosting
+## Uitgevoerde controle — 28 oktober 2026
 
-De bronrepository bleek bij de eerste release privé. Daarom weigert het releasescript nu vooraf een private downloadrepository: een APK zonder GitHub-login kan daar de release niet ophalen. Een publieke downloadlocatie vereist een expliciete keuze: bronrepository openbaar maken of een aparte publieke repository met alleen binaries/checksums. Er wordt geen GitHub-token in de app ingebouwd.
+Met expliciete toestemming is `Guido2002/GitaarGo` openbaar gemaakt, inclusief broncode en geschiedenis. De bestaande `v0.2.0`-release is zonder GitHub-aanmelding bereikbaar. APK en `SHA256SUMS.txt` zijn gepubliceerd; de serverdigest van de APK komt overeen met de lokale SHA-256-controle.
 
-De lokale Android-FileProvider-handoff is wel getest: een op SHA-256 gecontroleerde release-APK is in de private appcache aangeboden en opent succesvol Androids pakketinstaller op de emulator (`update_local_installer_test.dart`). Dit test de handoff, niet of de gebruiker de installatie uiteindelijk bevestigt. De publieke download-integratietest volgt zodra een publieke release-host is gekozen.
+- `flutter analyze`: geen issues; 48 Flutter-tests geslaagd.
+- Android-emulator: appstart/navigatie, lokale FileProvider-handoff én de volledige publieke download-/hash-/installerhandoff-tests geslaagd.
+- RG406H met Android 13: bestaande versie `0.1.1` via `adb install -r` bijgewerkt naar `0.2.0` (build 3), zonder uninstall of gewiste appgegevens.
+- De handoff-tests controleren het openen van Androids installer, niet of de gebruiker een volgende installatie daadwerkelijk bevestigt.
+- De releasehost-controle blijft in het publicatiescript staan: toekomstige private downloadlocaties worden vóór publicatie geweigerd.
+
+De fysieke installatie is bevestigd; dit is geen fysieke validatie van gitaarherkenning of audiolatency.
