@@ -1,0 +1,5 @@
+package nl.gitaargo.gitaargo
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

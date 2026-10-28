@@ -1,0 +1,278 @@
+[
+  {
+    "id": "open_strings",
+    "title": "Eerste snaren",
+    "bpm": 60,
+    "timeSignature": "4/4",
+    "notes": [
+      {
+        "midiNote": 40,
+        "startBeat": 0,
+        "durationBeats": 1,
+        "suggestedString": 6,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 45,
+        "startBeat": 2,
+        "durationBeats": 1,
+        "suggestedString": 5,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 50,
+        "startBeat": 4,
+        "durationBeats": 1,
+        "suggestedString": 4,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 55,
+        "startBeat": 6,
+        "durationBeats": 1,
+        "suggestedString": 3,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 59,
+        "startBeat": 8,
+        "durationBeats": 1,
+        "suggestedString": 2,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 64,
+        "startBeat": 10,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 40,
+        "startBeat": 12,
+        "durationBeats": 1,
+        "suggestedString": 6,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 45,
+        "startBeat": 14,
+        "durationBeats": 1,
+        "suggestedString": 5,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 50,
+        "startBeat": 16,
+        "durationBeats": 1,
+        "suggestedString": 4,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 55,
+        "startBeat": 18,
+        "durationBeats": 1,
+        "suggestedString": 3,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 59,
+        "startBeat": 20,
+        "durationBeats": 1,
+        "suggestedString": 2,
+        "suggestedFret": 0
+      },
+      {
+        "midiNote": 64,
+        "startBeat": 22,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 0
+      }
+    ]
+  },
+  {
+    "id": "pentatonic",
+    "title": "A mineur pentatonisch",
+    "bpm": 70,
+    "timeSignature": "4/4",
+    "notes": [
+      {
+        "midiNote": 57,
+        "startBeat": 0,
+        "durationBeats": 1,
+        "suggestedString": 4,
+        "suggestedFret": 7
+      },
+      {
+        "midiNote": 60,
+        "startBeat": 2,
+        "durationBeats": 1,
+        "suggestedString": 3,
+        "suggestedFret": 5
+      },
+      {
+        "midiNote": 62,
+        "startBeat": 4,
+        "durationBeats": 1,
+        "suggestedString": 3,
+        "suggestedFret": 7
+      },
+      {
+        "midiNote": 64,
+        "startBeat": 6,
+        "durationBeats": 1,
+        "suggestedString": 2,
+        "suggestedFret": 5
+      },
+      {
+        "midiNote": 67,
+        "startBeat": 8,
+        "durationBeats": 1,
+        "suggestedString": 2,
+        "suggestedFret": 8
+      },
+      {
+        "midiNote": 69,
+        "startBeat": 10,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 5
+      },
+      {
+        "midiNote": 72,
+        "startBeat": 12,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 8
+      },
+      {
+        "midiNote": 69,
+        "startBeat": 14,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 5
+      }
+    ]
+  },
+  {
+    "id": "chromatic",
+    "title": "Vier vingers",
+    "bpm": 80,
+    "timeSignature": "4/4",
+    "notes": [
+      {
+        "midiNote": 65,
+        "startBeat": 0,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 1
+      },
+      {
+        "midiNote": 66,
+        "startBeat": 2,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 2
+      },
+      {
+        "midiNote": 67,
+        "startBeat": 4,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 3
+      },
+      {
+        "midiNote": 68,
+        "startBeat": 6,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 4
+      },
+      {
+        "midiNote": 65,
+        "startBeat": 8,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 1
+      },
+      {
+        "midiNote": 66,
+        "startBeat": 10,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 2
+      },
+      {
+        "midiNote": 67,
+        "startBeat": 12,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 3
+      },
+      {
+        "midiNote": 68,
+        "startBeat": 14,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 4
+      },
+      {
+        "midiNote": 65,
+        "startBeat": 16,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 1
+      },
+      {
+        "midiNote": 66,
+        "startBeat": 18,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 2
+      },
+      {
+        "midiNote": 67,
+        "startBeat": 20,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 3
+      },
+      {
+        "midiNote": 68,
+        "startBeat": 22,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 4
+      },
+      {
+        "midiNote": 65,
+        "startBeat": 24,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 1
+      },
+      {
+        "midiNote": 66,
+        "startBeat": 26,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 2
+      },
+      {
+        "midiNote": 67,
+        "startBeat": 28,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 3
+      },
+      {
+        "midiNote": 68,
+        "startBeat": 30,
+        "durationBeats": 1,
+        "suggestedString": 1,
+        "suggestedFret": 4
+      }
+    ]
+  }
+]
