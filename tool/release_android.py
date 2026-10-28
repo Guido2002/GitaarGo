@@ -73,6 +73,10 @@ def main():
     if not notes.is_file():
         raise RuntimeError(f'Release-notities ontbreken: {notes.relative_to(ROOT)}')
     token=credentials() if args.publish else None
+    if args.publish:
+        repository=request(token,API)
+        if not repository or repository.get('private',True):
+            raise RuntimeError('De downloadrepository is privé. De updater heeft een publieke release-host nodig; publiceer geen onbereikbare update.')
     existing=request(token, f'{API}/releases/tags/{tag}') if args.publish else None
     if existing and not existing['draft']:
         raise RuntimeError('Deze versie is al gepubliceerd. Verhoog versie én buildnummer; vervang geen gepubliceerde APK.')

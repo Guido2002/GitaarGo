@@ -43,3 +43,10 @@ GitHub-toegang loopt via de bestaande git credential helper op de Mac of `GH_TOK
 - APK-bestanden blijven in de eigen appcache. De FileProvider geeft alleen toegang tot `gitaargo-updates/`; er is geen media-/opslagpermissie nodig.
 - Het product gebruikt geen GitHub-token; publieke releases zijn zonder account leesbaar.
 - De bronaanpak is gebaseerd op de updater in `Guido2002/ChromecastRemote`, uitgebreid met SHA-256-controle en expliciete keuze van de universele APK.
+
+
+## Controle van releasehosting
+
+De bronrepository bleek bij de eerste release privé. Daarom weigert het releasescript nu vooraf een private downloadrepository: een APK zonder GitHub-login kan daar de release niet ophalen. Een publieke downloadlocatie vereist een expliciete keuze: bronrepository openbaar maken of een aparte publieke repository met alleen binaries/checksums. Er wordt geen GitHub-token in de app ingebouwd.
+
+De lokale Android-FileProvider-handoff is wel getest: een op SHA-256 gecontroleerde release-APK is in de private appcache aangeboden en opent succesvol Androids pakketinstaller op de emulator (`update_local_installer_test.dart`). Dit test de handoff, niet of de gebruiker de installatie uiteindelijk bevestigt. De publieke download-integratietest volgt zodra een publieke release-host is gekozen.
